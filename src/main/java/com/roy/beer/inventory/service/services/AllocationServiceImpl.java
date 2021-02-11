@@ -1,3 +1,4 @@
+/*
 package com.roy.beer.inventory.service.services;
 
 import com.roy.beer.inventory.brewery.model.BeerOrderDetailsDto;
@@ -83,3 +84,4 @@ public class AllocationServiceImpl implements AllocationService {
         });
     }
 }
+*/
