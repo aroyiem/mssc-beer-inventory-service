@@ -5,12 +5,11 @@ import com.roy.beer.inventory.service.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.UUID;
 
-@Component
+//@Component
 @Slf4j
 @RequiredArgsConstructor
 public class BeerInventoryBootStrap implements CommandLineRunner {
