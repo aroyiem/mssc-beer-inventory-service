@@ -1,6 +1,6 @@
 package com.roy.beer.inventory.service.web.controllers;
 
-import com.roy.beer.inventory.service.web.model.BeerInventoryDto;
+import com.roy.brewery.model.BeerInventoryDto;
 import com.roy.beer.inventory.service.repositories.BeerInventoryRepository;
 import com.roy.beer.inventory.service.web.mappers.BeerInventoryMapper;
 import lombok.RequiredArgsConstructor;

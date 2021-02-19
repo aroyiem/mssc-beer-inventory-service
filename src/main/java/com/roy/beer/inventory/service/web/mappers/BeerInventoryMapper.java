@@ -1,6 +1,6 @@
 package com.roy.beer.inventory.service.web.mappers;
 
-import com.roy.beer.inventory.service.web.model.BeerInventoryDto;
+import com.roy.brewery.model.BeerInventoryDto;
 import com.roy.beer.inventory.service.domain.BeerInventory;
 import org.mapstruct.Mapper;
 
