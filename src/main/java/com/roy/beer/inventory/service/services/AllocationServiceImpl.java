@@ -1,10 +1,9 @@
-/*
 package com.roy.beer.inventory.service.services;
 
-import com.roy.beer.inventory.brewery.model.BeerOrderDetailsDto;
-import com.roy.beer.inventory.brewery.model.BeerOrderDto;
 import com.roy.beer.inventory.service.domain.BeerInventory;
 import com.roy.beer.inventory.service.repositories.BeerInventoryRepository;
+import com.roy.brewery.model.BeerOrderDetailsDto;
+import com.roy.brewery.model.BeerOrderDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -21,7 +20,6 @@ public class AllocationServiceImpl implements AllocationService {
     private final BeerInventoryRepository beerInventoryRepository;
 
     @Override
-    @Transactional
     public Boolean allocateOrder(BeerOrderDto beerOrderDto) {
         log.debug("Allocating OrderId: " + beerOrderDto.getId());
 
@@ -84,4 +82,3 @@ public class AllocationServiceImpl implements AllocationService {
         });
     }
 }
-*/
